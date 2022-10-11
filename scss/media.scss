@@ -1,0 +1,161 @@
+@media (max-width: 768px) {
+    .site{
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-areas: 
+        "header"
+        "content-head"
+        "content-head-2"
+        "content-head-3"
+        
+        
+    }
+
+    .menu {
+        grid-area: header;
+      }
+      
+      .column-1 {
+        grid-area: content-head;
+      }
+      .column-2 {
+        grid-area: content-head-2;
+      }
+      .column-3 {
+        grid-area: content-head-3;
+      }
+
+      .menu{
+        input{
+            margin-bottom: 25px;
+            max-width: 300px;
+        }
+      }
+
+      .sign-up-text{
+
+        input{
+            margin-bottom: 25px;
+            max-width: 300px;
+        }
+      }
+
+      .section-1{
+        flex-direction: column-reverse;
+        .frd{
+        width: 100%;
+      }
+
+      .section-img-1{
+        width: 100%;
+      }
+      }
+      .section-2{
+        flex-direction: column;
+        .b4r{
+        width: 100%;
+      }
+
+      .section-img-2{
+        width: 100%;
+      }
+      }
+      .section-3{
+        flex-direction: column-reverse;
+        .etu{
+        width: 100%;
+      }
+
+      .section-img-3{
+        width: 100%;
+      }
+      }
+
+      .section-4{
+        flex-direction: column;
+        .client-1{
+            width: 100%;
+        }
+        .client-2{
+            width: 100%;
+        }
+        .client-3{
+            width: 100%;
+        }
+
+       
+    }
+
+      
+
+    }
+
+@media (min-width: 769px) {
+    div.row{
+        display: flex;
+        grid-template-areas: 
+        "header header header"
+        "content-head content-head-2 content-head-3"
+        "container-1 container-1 container-1"
+
+    }
+
+    div.row{
+        img{
+            padding-top: 25px;
+            min-width: 20%;
+        }
+    }
+
+    .menu{
+        input{
+            width: 450px;
+        }
+    }
+
+    .sign-up-text{
+        input{
+            width: 450px;
+        }
+    }
+
+    .section-1{
+        .frd{
+            width: 50%
+        }
+
+        .section-img-1{
+            min-width: 50%;
+        }
+    }
+    .section-2{
+        .b4r{
+            width: 50%
+        }
+
+        .section-img-2{
+            min-width: 50%;
+        }
+    }
+    .section-3{
+        .etu{
+            width: 50%
+        }
+
+        .section-img-3{
+            min-width: 50%;
+        }
+    }
+    .section-4{
+        .client-1{
+            width: 33.33%;
+        }
+        .client-2{
+            width: 33.33%;
+        }
+        .client-3{
+            width: 33.33%;
+        }
+
+       
+    }
+}

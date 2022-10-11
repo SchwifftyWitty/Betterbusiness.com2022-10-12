@@ -1,0 +1,26 @@
+nav{
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    h2{
+        float: left;
+        font-weight: lighter;
+        margin-left: auto;
+    }
+
+    button{
+        float: right;
+        border: none;
+        background: #007bff;
+        color: white;
+        height: 40px;
+        width: 80px;
+        border-radius: 5px;
+        font-size: large;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
